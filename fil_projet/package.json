@@ -1,0 +1,53 @@
+{
+  "name": "ferlo-impact-hub-backend",
+  "version": "1.0.0",
+  "description": "Backend API pour Ferlo Impact Hub - Système de gestion des membres, blog et événements",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "test": "jest",
+    "lint": "eslint src/",
+    "docs": "node scripts/generateDocs.js"
+  },
+  "keywords": [
+    "ferlo",
+    "impact",
+    "hub",
+    "education",
+    "backend",
+    "api"
+  ],
+  "author": "Ferlo Impact Hub",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.4.3",
+    "express-rate-limit": "^7.1.5",
+    "express-slow-down": "^2.0.1",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "pdfkit": "^0.13.0",
+    "pg": "^8.11.3",
+    "qrcode": "^1.5.3",
+    "speakeasy": "^2.0.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  }
+}
