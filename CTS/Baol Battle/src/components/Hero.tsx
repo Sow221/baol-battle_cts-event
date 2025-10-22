@@ -62,7 +62,7 @@ export default function Hero() {
                 <MapPin className="w-5 h-5 text-blue-300" />
                 <div className="text-left">
                   <div className="text-xs text-gray-300">Lieu</div>
-                  <div className="font-semibold text-sm">Resto Europe (campus 2)</div>
+                  <div className="font-semibold text-sm">Resto Europe</div>
                 </div>
               </div>
             </div>
