@@ -24,14 +24,17 @@ export default function Hero() {
 
             {/* Vidéo de lancement TikTok */}
             <div className="max-w-2xl mx-auto mb-12">
-              <iframe
-                src="https://www.tiktok.com/embed/v2/7562924212306988300"
-                style={{ maxWidth: '100%', height: '400px' }}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="Vidéo de lancement Baol Battle"
-              ></iframe>
+              <video
+                controls
+                autoPlay
+                muted
+                loop
+                className="w-full h-auto rounded-lg shadow-2xl"
+                style={{ maxHeight: '400px' }}
+              >
+                <source src="https://www.tiktok.com/@cyber_tech_squad/video/7562924212306988300" type="video/mp4" />
+                Votre navigateur ne supporte pas la lecture de vidéos.
+              </video>
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
