@@ -80,7 +80,7 @@ export default function Contact() {
                     <span className="text-sm font-medium text-gray-700">Cyber Tech Squad (CTS)</span>
                   </a>
                   <a
-                    href="https://www.tiktok.com/@cyber_tech_squad/video/7562924212306988300?_r=1&u_code=f02b4chmjfihca&preview_pb=0&sharer_language=fr&_d=ekmkhilc682lci&share_item_id=7562924212306988300&source=h5_m&timestamp=1760880545&user_id=7562914945794196536&sec_user_id=MS4wLjABAAAAgVM2uvCxZTI1jDXoMtGR7OQLi7gqfyNU6N1IQ5-Ro8NBUgPUX0IWgMKMJqumlJbD&item_author_type=1&social_share_type=0&utm_source=whatsapp&utm_campaign=client_share&utm_medium=android&share_iid=7561195938263205643&share_link_id=dae02a73-a0fb-4590-981b-9b0b54efc173&share_app_id=1233&ugbiz_name=MAIN&ug_btm=b8727%2Cb2878&link_reflow_popup_iteration_sharer=%7B%22click_empty_to_play%22%3A1%2C%22dynamic_cover%22%3A1%2C%22follow_to_play_duration%22%3A-1.0%2C%22profile_clickable%22%3A1%7D&enable_checksum=1"
+                    href="https://www.tiktok.com/@cyber_tech_squad/video/7562924212306988300"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-3 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"

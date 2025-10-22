@@ -112,7 +112,7 @@ function App() {
         <Registration />
         <About />
         <Contact />
-        {showAdminNav && <Admin />}
+
       </main>
 
       <Footer />
