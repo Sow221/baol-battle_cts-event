@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { CheckCircle, AlertCircle, UserPlus } from 'lucide-react';
-import { supabase } from '../lib/supabase';
 
 export default function Registration() {
   const [formData, setFormData] = useState({
@@ -25,38 +24,17 @@ export default function Registration() {
       return;
     }
 
-    try {
-      const { error } = await supabase
-        .from('registrations')
-        .insert({
-          first_name: formData.firstName,
-          last_name: formData.lastName,
-          email: formData.email,
-          filiere: formData.filiere,
-          gdpr_consent: formData.gdprConsent
-        });
-
-      if (error) {
-        if (error.code === '23505') {
-          setErrorMessage('Cette adresse email est déjà enregistrée.');
-        } else {
-          setErrorMessage('Une erreur est survenue. Veuillez réessayer.');
-        }
-        setStatus('error');
-      } else {
-        setStatus('success');
-        setFormData({
-          firstName: '',
-          lastName: '',
-          email: '',
-          filiere: '',
-          gdprConsent: false
-        });
-      }
-    } catch (err) {
-      setStatus('error');
-      setErrorMessage('Une erreur est survenue. Veuillez réessayer.');
-    }
+    // Simulation d'inscription sans backend (statique)
+    setTimeout(() => {
+      setStatus('success');
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        filiere: '',
+        gdprConsent: false
+      });
+    }, 1500);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {

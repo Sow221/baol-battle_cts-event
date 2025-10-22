@@ -22,6 +22,18 @@ export default function Hero() {
               />
             </div>
 
+            {/* Vidéo de lancement TikTok */}
+            <div className="max-w-2xl mx-auto mb-12">
+              <iframe
+                src="https://www.tiktok.com/embed/v2/7562924212306988300"
+                style={{ maxWidth: '100%', height: '400px' }}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Vidéo de lancement Baol Battle"
+              ></iframe>
+            </div>
+
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
               Baol <span className="text-blue-400">Battle</span>
             </h1>
@@ -39,7 +51,7 @@ export default function Hero() {
                 <Calendar className="w-5 h-5 text-blue-300" />
                 <div className="text-left">
                   <div className="text-xs text-gray-300">Date</div>
-                  <div className="font-semibold">15 Mars 2025</div>
+                  <div className="font-semibold">25 octobre 2025</div>
                 </div>
               </div>
 
@@ -47,7 +59,7 @@ export default function Hero() {
                 <MapPin className="w-5 h-5 text-blue-300" />
                 <div className="text-left">
                   <div className="text-xs text-gray-300">Lieu</div>
-                  <div className="font-semibold text-sm">Amphi PGSUP, UADB</div>
+                  <div className="font-semibold text-sm">Resto Europe (campus 2)</div>
                 </div>
               </div>
             </div>

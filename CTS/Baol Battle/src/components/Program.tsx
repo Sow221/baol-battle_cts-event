@@ -24,7 +24,7 @@ const schedule: Day[] = [
   {
     date: '25 octobre 2025',
     dayName: 'Première Journée',
-    location: 'Resto Europe',
+    location: 'Resto Europe (campus 2)',
     sessions: [
       {
         time: '15:30 - 15:45',
